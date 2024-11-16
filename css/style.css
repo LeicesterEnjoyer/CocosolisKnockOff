@@ -1,0 +1,220 @@
+body {
+    font-family:'Franklin Gothic Medium';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 2vh 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-right: 2vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://placehold.co/1920x600');
+    background-color: #fff;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-content {
+    position: absolute;
+    left: 5vw;
+}
+
+.hero-content h2 {
+    color: #be6c4f;
+    font-size: 4vh;
+}
+
+.hero-content h3 {
+    color: #333;
+    font-size: 3vh;
+}
+
+.hero-content button {
+    padding: 2vh 4vw;
+    background-color: #816C65;
+    color: white;
+    border: none;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.light-brown-background {
+    background-color: #FBF1EB;
+}
+
+.white-background {
+    background-color: #ffffff;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.products-list h2 {
+    font-size: 4vh;
+    margin-bottom: 0;
+    color: #333;
+}
+
+.products-list p {
+    font-size: 2vh;
+    color: #555;
+}
+
+.products-2 {
+    display: grid;
+    margin-left: 22vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.products-3 {
+    display: grid;
+    margin-left: 12.3vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.products-3 img,
+.products-2 img {
+    height: auto;
+    padding-bottom: 0;
+}
+
+.product {
+    padding: 1vh;
+    margin: 1vh;
+    max-width: 15vw;
+    align-content: center;
+}
+
+#image-1 {
+    background-image: url("https://placehold.co/100x200");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product h3 {
+    padding-top: 0;
+    font-size: 2vh;
+    color: #333;
+}
+
+.product p {
+    font-size: 1.5vh;
+    color: #666;
+}
+
+.product button {
+    width: 2vw;
+    padding: 1.5vh 3vw;
+    background-color: #816C65;
+    color: white;
+    border: none;
+    font-size: 2vh;
+    cursor: pointer;
+    align-content: center;
+}
+
+.container {
+    background-color: #ffcdbae3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.bullet-points {
+    flex: 1;
+    margin: 1vh;
+}
+
+.bullet-points h2 {
+    font-size: 2vh;
+    color: #333;
+}
+
+.bullet-points p {
+    font-size: 1.5vh;
+    color: #666;
+}
+
+.container img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 60vh;
+}
+
+footer {
+    align-items: center;
+    background-color: #816C65;
+    padding-left: 20vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 45vh;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 2vh;
+}
+
+.footer-links a,
+.footer-social a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-subscribe form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+}
+
+.footer-subscribe input {
+    padding: 3vh;
+    margin-bottom: 2vh;
+    width: 80%;
+    max-width: 25vw;
+}
+
+.footer-subscribe button {
+    padding: 3vh 2vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
